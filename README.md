@@ -15,3 +15,5 @@ our team :
 - Otniel Andi Hermawan (19507334004)
 - Aldiasa Pangestu Aji (19507334007)
 - Nur Laily Fajriyah (19507334005)
+
+Thank you very much for you'r attention
