@@ -11,9 +11,5 @@ Selain itu, anda dapat menambahkan fungsi – fungsi lain yang Anda anggap perlu
 We built this project with a team that has been determined to do the final project in this semester for courses programming language.
 We would thank you to our gratitude to our lecturers who have been patient in teaching us this course
 our team : 
-- Abdul Mujiburrohman Luthfi (19507334027)
-- Otniel Andi Hermawan (19507334004)
-- Aldiasa Pangestu Aji (19507334007)
-- Nur Laily Fajriyah (19507334005)
 
 Thank you very much for you'r attention
