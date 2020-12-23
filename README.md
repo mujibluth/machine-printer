@@ -12,7 +12,7 @@ We built this project with a team that has been determined to do the final proje
 We would thank you to our gratitude to our lecturers who have been patient in teaching us this course
 our team : 
 - Abdul Mujiburrohman Luthfi (19507334027) 
-- 
+- Aldiasa Pangestu Aji (19507334007)
 -
 -
 
