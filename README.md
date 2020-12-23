@@ -13,7 +13,7 @@ We would thank you to our gratitude to our lecturers who have been patient in te
 our team : 
 - Abdul Mujiburrohman Luthfi (19507334027) 
 - Aldiasa Pangestu Aji (19507334007)
--
+- Otniel Andi Hermawan (19507334004)
 -
 
 Thank you very much for you'r attention
