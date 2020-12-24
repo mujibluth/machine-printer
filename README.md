@@ -14,6 +14,6 @@ our team :
 - Abdul Mujiburrohman Luthfi (19507334027) 
 - Aldiasa Pangestu Aji (19507334007)
 - Otniel Andi Hermawan (19507334004)
--
+- Nur Laily Fajriyah (19507334005)
 
 Thank you very much for you'r attention
