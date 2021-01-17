@@ -15,7 +15,25 @@ def jendelaInput():
 
     tk.Label(inputWindow, text="Number : ").grid(row=0, column=0, sticky=tk.W)
     inputA4.grid(row=0, column=1, sticky=tk.N+tk.E+tk.S+tk.W)
+    
+    
+def configPaper2():
+    def saveInput2():
+        a3 = inputA3.get()
+        viewerA3.config(state='normal')
+        viewerA3.delete(0, 'end')
+        viewerA3.insert(0, a3)
+        viewerA3.config(state='readonly')
+        inputWindow2.destroy()
+    inputWindow2 = tk.Tk()
+    inputWindow2.title("Configuration Paper A3")
+    inputWindow2.geometry("250x120")
+    inputA3 = tk.Entry(inputWindow2, justify="center")
 
+    tk.Label(inputWindow2, text="Number : ").grid(row=0, column=0, sticky=tk.W)
+    inputA3.grid(row=0, column=1, sticky=tk.N+tk.E+tk.S+tk.W)
+
+    tk.Button(inputWindow2, text="Save Changes", command=saveInput2).grid(row=2, column=0, columnspan=2, padx=20, pady=5, sticky=tk.E+tk.W)
     tk.Button(inputWindow, text="Save Changes", command=saveInput1).grid(row=2, column=0, columnspan=2, padx=20, pady=5, sticky=tk.E+tk.W)
 master = tk.Tk()
 master.title("Project Akhir")
