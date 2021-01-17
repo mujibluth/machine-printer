@@ -53,6 +53,24 @@ def configPaper3():
 
     tk.Button(inputWindow3, text="Save Changes", command=saveInput3).grid(row=2, column=0, columnspan=2, padx=20, pady=5, sticky=tk.E+tk.W)
     
+def configPaper4():
+    def saveInput4():
+        b2 = inputB2.get()
+        viewerB2.config(state='normal')
+        viewerB2.delete(0, 'end')
+        viewerB2.insert(0, b2)
+        viewerB2.config(state='readonly')
+        inputWindow4.destroy()
+    inputWindow4 = tk.Tk()
+    inputWindow4.title("Configuration Paper B2")
+    inputWindow4.geometry("250x120")
+    inputB2 = tk.Entry(inputWindow4, justify="center")
+
+    tk.Label(inputWindow4, text="Number : ").grid(row=0, column=0, sticky=tk.W)
+    inputB2.grid(row=0, column=1, sticky=tk.N+tk.E+tk.S+tk.W)
+
+    tk.Button(inputWindow4, text="Save Changes", command=saveInput4).grid(row=2, column=0, columnspan=2, padx=20, pady=5, sticky=tk.E+tk.W)    
+    
 master = tk.Tk()
 master.title("Project Akhir")
 master.geometry("300x300")
