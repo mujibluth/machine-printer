@@ -34,4 +34,7 @@ tk.Label(master, text="Total", font = ('Google Sans','10')).grid(row=8, column=0
 tk.Entry(master, justify="left").grid(row=8, column=1, sticky=tk.N+tk.E+tk.S+tk.W)
 # tk.Button(master, text = "add").grid(row=8, column = 3, sticky=tk.W)
 
+# Tombol print
+tk.Button(master, text = "PRINT", width = 15,  font = ('Google Sans','8', 'bold')).grid(row=9, column = 0, columnspan = 4, pady = 10, sticky=tk.N+tk.E+tk.S+tk.W)
+
 tk.mainloop()
