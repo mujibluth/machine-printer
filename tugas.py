@@ -1,5 +1,22 @@
 import tkinter as tk
 
+def jendelaInput(): 
+    def saveInput1():
+        a4 = inputA4.get()
+        viewerA4.config(state='normal')
+        viewerA4.delete(0, 'end')
+        viewerA4.insert(0, a4)
+        viewerA4.config(state='readonly')
+        inputWindow.destroy()
+    inputWindow = tk.Tk()
+    inputWindow.title("Configuration Paper A4")
+    inputWindow.geometry("250x120")
+    inputA4 = tk.Entry(inputWindow, justify="center")
+
+    tk.Label(inputWindow, text="Number : ").grid(row=0, column=0, sticky=tk.W)
+    inputA4.grid(row=0, column=1, sticky=tk.N+tk.E+tk.S+tk.W)
+
+    tk.Button(inputWindow, text="Save Changes", command=saveInput1).grid(row=2, column=0, columnspan=2, padx=20, pady=5, sticky=tk.E+tk.W)
 master = tk.Tk()
 master.title("Project Akhir")
 master.geometry("300x300")
