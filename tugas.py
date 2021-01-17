@@ -16,7 +16,6 @@ def jendelaInput():
     tk.Label(inputWindow, text="Number : ").grid(row=0, column=0, sticky=tk.W)
     inputA4.grid(row=0, column=1, sticky=tk.N+tk.E+tk.S+tk.W)
     
-    
 def configPaper2():
     def saveInput2():
         a3 = inputA3.get()
@@ -35,6 +34,25 @@ def configPaper2():
 
     tk.Button(inputWindow2, text="Save Changes", command=saveInput2).grid(row=2, column=0, columnspan=2, padx=20, pady=5, sticky=tk.E+tk.W)
     tk.Button(inputWindow, text="Save Changes", command=saveInput1).grid(row=2, column=0, columnspan=2, padx=20, pady=5, sticky=tk.E+tk.W)
+    
+def configPaper3():
+    def saveInput3():
+        b1 = inputB1.get()
+        viewerB1.config(state='normal')
+        viewerB1.delete(0, 'end')
+        viewerB1.insert(0, b1)
+        viewerB1.config(state='readonly')
+        inputWindow3.destroy()
+    inputWindow3 = tk.Tk()
+    inputWindow3.title("Configuration Paper B1")
+    inputWindow3.geometry("250x120")
+    inputB1 = tk.Entry(inputWindow3, justify="center")
+
+    tk.Label(inputWindow3, text="Number : ").grid(row=0, column=0, sticky=tk.W)
+    inputB1.grid(row=0, column=1, sticky=tk.N+tk.E+tk.S+tk.W)
+
+    tk.Button(inputWindow3, text="Save Changes", command=saveInput3).grid(row=2, column=0, columnspan=2, padx=20, pady=5, sticky=tk.E+tk.W)
+    
 master = tk.Tk()
 master.title("Project Akhir")
 master.geometry("300x300")
