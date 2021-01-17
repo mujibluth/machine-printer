@@ -28,4 +28,10 @@ tk.Label(master, text="Dark", font = ('Google Sans','10')).grid(row=6, rowspan =
 tk.Entry(master, justify="left").grid(row=6, column=1, sticky=tk.N+tk.E+tk.S+tk.W)
 tk.Button(master, text = "add").grid(row=6, column = 3, sticky=tk.W)
 
+# cek sudah mencetak berapa kali cetak
+tk.Label(master, text="Check Number of Prints", font = ('Google Sans','13', 'bold')).grid(row=7, column=0, columnspan = 4, pady = 15, sticky = tk.W)
+tk.Label(master, text="Total", font = ('Google Sans','10')).grid(row=8, column=0, sticky=tk.E)
+tk.Entry(master, justify="left").grid(row=8, column=1, sticky=tk.N+tk.E+tk.S+tk.W)
+# tk.Button(master, text = "add").grid(row=8, column = 3, sticky=tk.W)
+
 tk.mainloop()
