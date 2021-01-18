@@ -145,7 +145,7 @@ tk.Label(master).grid(row = 9, column = 0)
 tk.Label(master, text="Check Number of Prints", font = ('Google Sans','13', 'bold')).grid(row=10, column=0, columnspan = 4, sticky = tk.W)
 tk.Label(master, text="Total").grid(row=11, column=0, sticky=tk.E)
 numberPrint3.grid(row=11, column=1, sticky=tk.N+tk.E+tk.S+tk.W)
-penambahan = int(numberPrint3.get())
+penambahan1 = int(numberPrint3.get())
 
 # Tombol print
 tk.Button(master, text = "PRINT", command = naik, width = 15, font = ('Google Sans','8', 'bold')).grid(row=13, column = 0, columnspan = 4, pady = 10, padx = 5, sticky=tk.N+tk.E+tk.S+tk.W)
