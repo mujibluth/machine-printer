@@ -17,3 +17,7 @@ our team :
 - Nur Laily Fajriyah (19507334005)
 
 Thank you very much for you'r attention
+
+
+!! URGENT !!
+You can see the results of this project in the release feature
